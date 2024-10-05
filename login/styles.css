@@ -1,0 +1,211 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+/* header */
+
+
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+}
+
+/* loging */
+.login-container {
+  background-color: #e0f7fa; /* Color específico para inicio de sesión */
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.required::after{
+  content: '*';
+  margin-left: 2px;
+  color: red;
+
+}
+
+
+
+
+
+.paciente-form-container {
+  background-color: #e1bee7; /* Color específico para registro de paciente */
+}
+
+.personal-form-container {
+  background-color: #c5e1a5; /* Color específico para registro de personal */
+}
+
+.login-container h1, .form-container h2 {
+  margin-bottom:  20px ;
+}
+
+.login-container form, .form-container form {
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 10px;
+  margin-right: 0%;
+}
+
+.login-container label, .form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-container input, .form-container input, .form-container select {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button, .form-container button {
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-container button {
+  background-color: #4CAF50; /* Color de botón para inicio de sesión */
+}
+
+.paciente-form-container button {
+  background-color: #8e24aa; /* Color de botón para registro de paciente */
+}
+
+.personal-form-container button {
+  background-color: #43a047; /* Color de botón para registro de personal */
+}
+
+.login-container button:hover, .paciente-form-container button:hover, .personal-form-container button:hover {
+  filter: brightness(90%);
+}
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-options button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin:  0px 5px 0px 5px;
+}
+
+.login-options button#personal-login {
+  background-color: #17A2B8;
+}
+
+.login-options button#personal-login:hover {
+  background-color: #138496;
+}
+
+.form-container {
+  display: none;
+  background-color: white;
+  padding: 20px 40px 20px 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.toggle-btn {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.toggle-btn:hover {
+  background-color: #0056b3;
+}
+
+.collapsible-content {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.collapsible-content label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+input[type="number"]::placeholder {
+  color: #aaa;
+}
+
+.botom{
+ width:100%;
+
+  
+}
+/* Estilo para el contenedor de alertas */
+.alert-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  z-index: 1000;
+}
+
+/* Estilo para cada alerta */
+.alert {
+  background-color: #f44336; /* Rojo por defecto, puedes cambiar el color */
+  color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* Botón de cierre de alerta */
+.alert .close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
