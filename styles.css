@@ -4,13 +4,11 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-
 }
 
 .container {
-  width: 100%;
-  margin-top: 100%;
-  padding:0 ;
+  width: 80%;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -28,7 +26,7 @@ header .logo {
 
 header nav {
   float: right;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 header nav ul {
@@ -43,7 +41,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -53,9 +51,8 @@ header nav ul li a:hover {
 
 /* Sección de Héroe */
 .hero {
-  background: url('img/Screenshot\ 2024-05-05\ 224544.png') center center no-repeat;
+  background: url('hero-bg.jpg') center center no-repeat;
   background-size: cover;
-
   color: #fff;
   padding: 80px 0;
   text-align: center;
