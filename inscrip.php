@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="login/styles.css">
 </head>
-<body> -->
+<body> 
     <!-- Encabezado -->
-    <!-- <header>
+    <header>
         <div class="container">
             <div class="logo">
                 <img src="img/Screenshot 2024-05-05 224627.png" alt="UNIMET">
@@ -27,4 +27,4 @@
         </div>
     </header>
 
-     -->
+    
