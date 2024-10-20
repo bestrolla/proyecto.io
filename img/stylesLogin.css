@@ -1,0 +1,128 @@
+/* colore
+color1 princiapl=rgb(29, 72, 140) azul oscuro
+color2=rgb(198, 203, 87) dorado
+color3=rgb(28, 102, 113)verde
+color4=rgb(44, 124, 86)verde oscuro
+color5=rgb(112, 161, 79)verde suave
+coloe6=rgb(176, 175, 181)gris suave
+
+
+
+*/
+.login-contenedor,.inscrip{
+  background-color:rgb(29, 72, 140);
+  padding: 5%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(255, 248, 248) ;
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 10% 30% 10% 30%;
+}
+
+.login-contenedor h1{
+  margin-bottom: 30px;
+}
+
+.login-contenedor  form,.inscrip form{
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 10px ;
+  margin-right: 0%;
+
+}
+
+.login-contenedor label,.inscrip label{
+  display: block;
+  margin-bottom: 5px;
+
+}
+
+.login-contenedor input,.inscrip input{
+  width: 100%;
+  padding: 10px 0px 10px 0px ;
+  margin-bottom: 10px;
+  border: 1px solid rgba(198, 203, 87);
+  border-radius: 5px;
+
+
+}
+
+.login-contenedor button,.inscrip button{
+  width: 80%;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.login-contenedor button{
+  background-color: rgba(198, 203, 87);
+
+}
+
+
+.login-contenedor button:hover{
+  filter: brightness(90%);
+
+
+}
+/* .boton-ins{
+  display: flex;
+  justify-content: space-between;
+
+}  */
+
+.boton-ins button{
+  background-color: blue;
+  color: blanchedalmond;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size:16px;
+  margin: 0px 5px 0px 5px ;
+  align-items: centers;
+
+}
+
+
+.boton-ins button#ins{
+  background-color: rgba(44, 124, 86);
+}
+.boton-ins button#ins:hover{
+background-color:rgba(44, 124, 86);
+
+}
+
+
+.inscrip{
+  display: none;
+  background-color: aliceblue;
+  padding: 20px 40px 20px 40px ;
+  border-radius: 5px;
+  box-shadow:0 0 10px rgba(0, 0, 0,0.1);
+  text-align: center;
+}
+.inscrip {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s ease-out;
+  background-color: aliceblue;
+  padding: 0 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Cuando se active el formulario, se expandirá */
+.inscrip.activa {
+  height: 400px; /* Ajusta según el contenido */
+  padding: 20px 40px;
+}
+
+
+
+
+
