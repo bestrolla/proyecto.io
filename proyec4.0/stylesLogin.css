@@ -1,0 +1,129 @@
+/* Colores definidos */
+:root {
+  --azul-oscuro: rgb(29, 72, 140);
+  --dorado: rgb(198, 203, 87);
+  --verde-oscuro: rgb(44, 124, 86);
+  --verde-suave: rgb(112, 161, 79);
+  --gris-suave: rgb(176, 175, 181);
+}
+
+/* Estilos para login y formulario de inscripción */
+.login-contenedor, .inscrip {
+  background-color: var(--azul-oscuro);
+  padding: 5%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin: 10% 30%;
+  color: aliceblue;
+}
+
+.login-contenedor h1 {
+  margin-bottom: 30px;
+  color: aliceblue;
+}
+
+.login-contenedor form, .inscrip form {
+  margin-bottom: 20px;
+  padding: 10px;
+  color: aliceblue;
+}
+
+.login-contenedor label, .inscrip label {
+  display: block;
+  margin-bottom: 5px;
+  color: aliceblue;
+}
+
+.login-contenedor input, .inscrip input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid var(--dorado);
+  border-radius: 5px;
+}
+
+.login-contenedor button, .inscrip button {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.login-contenedor button {
+  background-color: var(--dorado);
+}
+
+.login-contenedor button:hover {
+  filter: brightness(90%);
+}
+
+.boton-ins {
+  display: flex;
+  justify-content: center;
+}
+
+.boton-ins button {
+  background-color: var(--verde-oscuro);
+  color: blanchedalmond;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.inscrip {
+  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s ease-out, padding 0.5s ease-out;
+  background-color: aliceblue;
+  padding: 0 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.inscrip.mostrar {
+  height: 400px; /* Ajusta según el contenido */
+  padding: 20px 40px;
+}
+/* Estilos básicos */
+.login-contenedor, .inscrip {
+  background-color: rgb(29, 72, 140);
+  padding: 5%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin: 10% 30%;
+  transition: all 0.5s ease;
+}
+
+/* Por defecto, ocultamos la inscripción */
+#estudiante-form-contenedor {
+  display: none;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+/* Mostrar la inscripción */
+#estudiante-form-contenedor.mostrar {
+  display: block;
+  opacity: 1;
+  height: auto;
+  padding: 20px;
+}
+
+
+label{
+
+  color: aliceblue;
+}
