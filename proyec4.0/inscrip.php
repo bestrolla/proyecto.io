@@ -29,11 +29,18 @@
     <div class="inscrip" id="estudiante-form-contenedor">
         <h2>Inscripción</h2>
         <form action="register.php" method="post" id="estudiante-form">
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" required>
+        <div class="nombre-apellido-contenedor">
+    <div>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+    </div>
 
-            <label for="apellido">Apellido</label>
-            <input type="text" id="apellido" name="apellido" required>
+    <div>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" required>
+    </div>
+</div>
+
 
             <label for="cedula">Cédula</label>
             <input type="number" id="cedula" name="cedula" required>
