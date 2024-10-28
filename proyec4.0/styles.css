@@ -1,14 +1,11 @@
-/* colore
-color1 princiapl=rgb(29, 72, 140) azul oscuro
-color2=rgb(198, 203, 87) dorado
-color3=rgb(28, 102, 113)verde
-color4=rgb(44, 124, 86)verde oscuro
-color5=rgb(112, 161, 79)verde suave
-coloe6=rgb(176, 175, 181)gris suave
-
-
-
-*/
+/* Colores definidos */
+:root {
+  --azul-oscuro: rgb(29, 72, 140);
+  --dorado: rgb(198, 203, 87);
+  --verde-oscuro: rgb(44, 124, 86);
+  --verde-suave: rgb(112, 161, 79);
+  --gris-suave: rgb(176, 175, 181);
+}
 
 
 
@@ -243,4 +240,45 @@ footer {
   padding: 20px 0;
   background: #333;
   color: #fff;
+  /* position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%; */
+
+}
+
+
+.container-curso{
+  align-content: center center;
+  /* background-color: var(--dorado); */
+  text-align: center;
+  margin: 10% 30% 10% 30%;
+  padding: 20px 20px 20px 20pxs;
+  border-radius:10px ;
+  border: var(--azul-oscuro);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+
+
+}
+
+
+.apli{
+  background-color:var(--verde-oscuro);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 5px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+
 }

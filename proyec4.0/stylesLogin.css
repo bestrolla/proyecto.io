@@ -7,32 +7,47 @@
   --gris-suave: rgb(176, 175, 181);
 }
 
+
+body{
+  background-image: linear-gradient(rgba(2, 0, 0, 0.376),rgba(0, 0, 0, 0.261) ),url(img/complejo-r2NSNS6mF-transformed.jpeg) ;
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  color: #fff;
+  margin-top: 0px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  height: 900px;
+  align-content:center;
+
+}
+
+
 /* Estilos para login y formulario de inscripción */
+
 .login-contenedor, .inscrip {
   background-color: var(--azul-oscuro);
   padding: 5%;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  border-radius: 25px;
+  box-shadow: 0 0 30px rgb(6, 166, 240);
   text-align: center;
-  margin: 10% 30%;
+  margin: 10% 30% 10% 30%;
   color: aliceblue;
+  transition: all 0.5s ease;
 }
 
 .login-contenedor h1 {
   margin-bottom: 30px;
-  color: aliceblue;
 }
 
 .login-contenedor form, .inscrip form {
   margin-bottom: 20px;
   padding: 10px;
-  color: aliceblue;
 }
 
 .login-contenedor label, .inscrip label {
   display: block;
   margin-bottom: 5px;
-  color: aliceblue;
 }
 
 .login-contenedor input, .inscrip input {
@@ -52,6 +67,7 @@
   font-size: 16px;
   cursor: pointer;
   margin: 2px;
+  background-color: var(--verde-oscuro);
 }
 
 .login-contenedor button {
@@ -78,32 +94,8 @@
   margin: 0 5px;
 }
 
-.inscrip {
-  display: none;
-  height: 0;
-  overflow: hidden;
-  transition: height 0.5s ease-out, padding 0.5s ease-out;
-  background-color: aliceblue;
-  padding: 0 40px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
 
-.inscrip.mostrar {
-  height: 400px; /* Ajusta según el contenido */
-  padding: 20px 40px;
-}
-/* Estilos básicos */
-.login-contenedor, .inscrip {
-  background-color: rgb(29, 72, 140);
-  padding: 5%;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-  text-align: center;
-  margin: 10% 30%;
-  transition: all 0.5s ease;
-}
+
 
 /* Por defecto, ocultamos la inscripción */
 #estudiante-form-contenedor {
@@ -119,11 +111,31 @@
   display: block;
   opacity: 1;
   height: auto;
-  padding: 20px;
+  padding: 20px 35px 20px 20px;
+  
 }
 
+/* Estilos para contenedores en línea */
+.nombre-apellido-contenedor, .cedula-correo-contenedor {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Espacio entre los campos */
+  margin-bottom: 10px;
+  
+}
 
-label{
+/* Asegura que ambos campos ocupen el mismo espacio */
+.nombre-apellido-contenedor input, 
+.cedula-correo-contenedor input {
+  flex: 1;
+}
 
+label {
   color: aliceblue;
+}
+
+.regis:ho{
+  filter: brightness(90%);
+
+
 }

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complejo | Inscripción</title>
     <link rel="stylesheet" href="stylesLogin.css">
+    <?php include('head.php');?>
 </head>
 <body> 
     <?php include('header.php'); ?>
@@ -29,26 +30,39 @@
     <div class="inscrip" id="estudiante-form-contenedor">
         <h2>Inscripción</h2>
         <form action="register.php" method="post" id="estudiante-form">
+    <div class="nombre-apellido-contenedor">
+        <div>
             <label for="nombre">Nombre</label>
             <input type="text" id="nombre" name="nombre" required>
+        </div>
 
+        <div>
             <label for="apellido">Apellido</label>
             <input type="text" id="apellido" name="apellido" required>
+        </div>
+    </div>
 
+    <div class="cedula-correo-contenedor">
+        <div>
             <label for="cedula">Cédula</label>
             <input type="number" id="cedula" name="cedula" required>
+        </div>
 
+        <div>
             <label for="correo">Correo electrónico</label>
             <input type="email" id="correo" name="correo" required>
+        </div>
+    </div>
 
-            <label for="contraseña">Contraseña</label>
-            <input type="password" id="contraseña" name="contraseña" required>
+    <label for="contraseña">Contraseña</label>
+    <input type="password" id="contraseña" name="contraseña" required>
 
-            <label for="repetir-contraseña">Repetir Contraseña</label>
-            <input type="password" id="repetir-contraseña" name="repetir_contraseña" required>
+    <label for="repetir-contraseña">Repetir Contraseña</label>
+    <input type="password" id="repetir-contraseña" name="repetir_contraseña" required>
 
-            <button type="submit">Registrarse</button>
-        </form>
+    <button type="submit" class="regis">Registrarse</button>
+</form>
+
     </div>
 
     <?php include('footer.php'); ?>
