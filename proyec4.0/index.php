@@ -9,12 +9,12 @@
         </div>
     </section>
     <!-- Sección de Información Relevante -->
-    <section class="informacion-relevante">
+    <!-- <section class="informacion-relevante">
         <div class="container">
             <h2>Información Relevante</h2>
             <p>Aquí puedes añadir información importante para los estudiantes o el personal..</p>
         </div>
-    </section>
+    </section> -->
 <?php include('footer.php');?>
 </body>
 </html>

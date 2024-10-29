@@ -17,11 +17,12 @@
 
             <nav>
                 <ul>
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="Cursos.php">Cursos</a></li>
+                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="Cursos.php">Cursos</a></li>
                     <li><a href="eventos.php">Eventos</a></li>
                     <li><a href="post.php">instagram</a></li>
                     <li><a href="calendario.php">Calendario</a></li>
+                    <li><a href="agenda.php">agenda</a></li>
                     <li><a href="inscrip.php">Inscribete</a></li>
                 </ul>
             </nav>
