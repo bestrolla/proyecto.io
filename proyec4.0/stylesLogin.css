@@ -8,17 +8,19 @@
 }
 
 
-body{
-  background-image: linear-gradient(rgba(2, 0, 0, 0.376),rgba(0, 0, 0, 0.261) ),url(img/complejo-r2NSNS6mF-transformed.jpeg) ;
-  background-repeat: no-repeat;
+.fondo {
   
+  background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
   margin-top: 0px;
   padding: 0px 0px 0px 0px;
   text-align: center;
-  height: 900px;
+  height: 100%;
   align-content:center;
+
+  background-image: linear-gradient(rgba(2, 0, 0, 0.376),rgba(0, 0, 0, 0.261) ),url(img/complejo-r2NSNS6mF-transformed.jpeg) ;
+  
 
 }
 
@@ -31,7 +33,7 @@ body{
   border-radius: 25px;
   box-shadow: 0 0 30px rgb(6, 166, 240);
   text-align: center;
-  margin: 10% 30% 10% 30%;
+  margin: 5% 30% 5% 30%;
   color: aliceblue;
   transition: all 0.5s ease;
 }

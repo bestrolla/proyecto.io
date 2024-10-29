@@ -98,9 +98,9 @@ header nav ul li a:hover {
   margin-top: 0px;
   padding: 0px 0px 0px 0px;
   text-align: center;
-  height: 600px;
+  height: 100;
   align-content:center;
-  background-image:linear-gradient(rgba(165, 153, 153, 0.541), rgba(7, 7, 7, 0.438)), url(img/imaIndex.jpg) ;
+  background-image:linear-gradient(rgba(165, 153, 153, 0.541), rgba(7, 7, 7, 0.438)), url(img/imaIndex.jpg)  ;
 
 }
 
