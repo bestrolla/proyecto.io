@@ -22,7 +22,7 @@
                     <li><a href="calendario_admin.php">Eventos</a></li>
                     <li><a href="instagram/feed.php">instagram</a></li>
                     <li><a href="calendario.php">Calendario</a></li>
-                    <li><a href="agenda.php">agenda</a></li>
+                    <!-- <li><a href="agenda.php">agenda</a></li> -->
                     <li><a href="inscrip.php">Inscribete</a></li>
                 </ul>
             </nav>

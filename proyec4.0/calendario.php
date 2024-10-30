@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>complejo|calendario</title>
+    <title>complejo |calendario</title>
     <link rel="stylesheet" href="styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <!-- Bootstrap CSS v5.2.1 -->
@@ -18,6 +18,7 @@
         <!-- FullCalendar JS -->
         <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/locales-all.js"></script>
+        <?php include('head.php');?>
     </head>
     <body>
     <?php include('header.php');?>

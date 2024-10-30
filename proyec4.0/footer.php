@@ -1,5 +1,5 @@
     <!-- Pie de Página -->
-    <footer>
+    <footer class="footer">
         <div class="container">
             <p>&copy; isis y angel for ever</p>
         </div>

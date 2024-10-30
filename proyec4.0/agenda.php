@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Agenda Web</title>
+        <title>complejo |agenda</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <!-- Bootstrap CSS v5.2.1 -->
@@ -29,6 +29,7 @@
             text-decoration: none;
         }
     </style>
+    
     </head>
     <body>
         <header class="bg-primary text-white text-center py-2">

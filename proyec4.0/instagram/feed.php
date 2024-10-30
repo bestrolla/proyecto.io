@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Alcaldia del Municipio Los Salias</title>
+    <title>complejo |instagram</title>
      <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="ig.css">
     <link rel="shortcut icon" href="LOGOOFICIAL.png" type="image/x-icon">
+    <?php include('../head.php');?>
+    <link rel="stylesheet" href="../styles.css">
+    
 </head>
+<header>
+            <div class="container">       
+            <div class="logo">
+                <img src="img/logo.jpg" alt="UNIMET"  height="75px " width="75px"  >
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="../index.php">Inicio</a></li>
+                    <!-- <li><a href="Cursos.php">Cursos</a></li> -->
+                    <li><a href="../calendario_admin.php">Eventos</a></li>
+                    <li><a href="instagram/feed.php">instagram</a></li>
+                    <li><a href="../calendario.php">Calendario</a></li>
+                    <!-- <li><a href="agenda.php">agenda</a></li> -->
+                    <li><a href="../inscrip.php">Inscribete</a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
 <style>
     hr {
       border-top-width: 2px solid #0e0000;
@@ -207,6 +229,7 @@
             </div>
         </div>
         </section>
+        <?php include('../footer.php');?>
 
 </body>
 </html>

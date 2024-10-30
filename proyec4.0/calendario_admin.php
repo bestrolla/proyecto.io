@@ -5,7 +5,7 @@
     <head>
 
     
-        <title>Agenda Web</title>
+        <title>complajo |agenda</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <!-- Bootstrap CSS v5.2.1 -->
@@ -28,10 +28,12 @@
                 text-decoration: none;
             }
         </style>
+                <?php include('head.php');?>
+
     </head>
     <body>
     <?php include('header.php');?>
-    
+
         <header class="bg-primary text-white text-center py-2">
             <h1>Calendario de Eventos</h1>
         </header>
@@ -150,10 +152,10 @@
             });
 
 
-            <?php include('footer.php');?>
-        </script>
+            </script>
         <!-- Bootstrap JavaScript Libraries -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        <?php include('footer.php');?>
     </body>
 </html>

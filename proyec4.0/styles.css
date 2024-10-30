@@ -96,12 +96,12 @@ header nav ul li a:hover {
   background-size: cover;
   color: #fff;
   margin-top: 0px;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 200px 0px;
   text-align: center;
   height: 100;
   align-content:center;
   background-image:linear-gradient(rgba(165, 153, 153, 0.541), rgba(7, 7, 7, 0.438)), url(img/imaIndex.jpg)  ;
-
+  
 }
 
 .hero h1 {
@@ -235,17 +235,14 @@ header nav ul li a:hover {
 }
 
 /* Pie de página */
-footer {
+.footer {
   text-align: center;
   padding: 20px 0;
   background: #333;
   color: #fff;
-  /* position:fixed;
-  left:0px;
-  bottom:0px;
-  height:30px;
-  width:100%; */
-
+ display: grid;
+ min-width: 100dvh;
+ grid-template-rows: auto 1fr auto;
 }
 
 
