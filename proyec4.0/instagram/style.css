@@ -1,0 +1,70 @@
+.instagram-profile {
+    
+   
+  align-items: center;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elemento-a-bajar {
+    order: 2; /* Si hay otros elementos, este se colocará después */
+  }
+
+.imagen-Logo{
+    border-radius:50%;
+    width: 150px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.stat {
+    text-align: center;
+    margin: 3%;
+}
+
+.contenedor-titulos {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos de forma equitativa */
+  }
+  
+  .titulo {
+    /* Estilos para cada título */
+    text-align: center;
+    padding: 10px;
+  }
+
+.highlights {
+    margin-top: 10px;
+}
+
+.highlight-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;;
+}
+
+.highlight-item {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.highlight-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.lineainferior{
+    display: flex;
+  justify-content: center;
+}
+

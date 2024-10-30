@@ -1,0 +1,143 @@
+/* Colores definidos */
+:root {
+    --azul-oscuro: rgb(29, 72, 140);
+    --dorado: rgb(198, 203, 87);
+    --verde-oscuro: rgb(44, 124, 86);
+    --verde-suave: rgb(112, 161, 79);
+    --gris-suave: rgb(176, 175, 181);
+  }
+  
+  
+  .fondo {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin-top: 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    height: 100%;
+    align-content:center;
+  
+    background-image: linear-gradient(rgba(240, 238, 238, 0.376),rgba(0, 0, 0, 0.261) ),url(complejo.jpg) ;
+    
+  
+  }
+  
+  
+  /* Estilos para login, formulario de inscripción y recuperacion de contraseña */
+  
+  .login-contenedor, .inscrip {
+    background-color: var(--azul-oscuro);
+    padding: 5%;
+    border-radius: 25px;
+    box-shadow: 0 0 30px rgb(6, 166, 240);
+    text-align: center;
+    margin: 5% 30% 5% 30%;
+    color: aliceblue;
+    transition: all 0.5s ease;
+  }
+  
+  .login-contenedor h1 {
+    margin-bottom: 30px;
+  }
+  
+  .login-contenedor form, .inscrip form {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .login-contenedor label, .inscrip label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-contenedor input, .inscrip input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--dorado);
+    border-radius: 5px;
+  }
+  
+  .login-contenedor button, .inscrip button {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 2px;
+    background-color: var(--verde-oscuro);
+  }
+  
+  .login-contenedor button {
+    background-color: var(--dorado);
+  }
+  
+  .login-contenedor button:hover {
+    filter: brightness(90%);
+  }
+  
+  .boton-ins {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .boton-ins button {
+    background-color: var(--verde-oscuro);
+    color: blanchedalmond;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  
+  
+  
+  
+  /* Por defecto, ocultamos la inscripción */
+  #estudiante-form-contenedor {
+    display: none;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+  }
+  
+  /* Mostrar la inscripción */
+  #estudiante-form-contenedor.mostrar {
+    display: block;
+    opacity: 1;
+    height: auto;
+    padding: 20px 35px 20px 20px;
+    
+  }
+  
+  /* Estilos para contenedores en línea */
+  .nombre-apellido-contenedor, .cedula-correo-contenedor {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Espacio entre los campos */
+    margin-bottom: 10px;
+    
+  }
+  
+  /* Asegura que ambos campos ocupen el mismo espacio */
+  .nombre-apellido-contenedor input, 
+  .cedula-correo-contenedor input {
+    flex: 1;
+  }
+  
+  label {
+    color: aliceblue;
+  }
+  
+  .regis:ho{
+    filter: brightness(90%);
+  
+  
+  }
