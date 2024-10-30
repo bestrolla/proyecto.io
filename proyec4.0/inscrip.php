@@ -6,10 +6,11 @@
     <title>Complejo | Inscripción</title>
     <link rel="stylesheet" href="stylesLogin.css">
     <?php include('head.php');?>
+   
 </head>
 <body> 
     <?php include('header.php'); ?>
-
+    <section class="fondo"> 
     <div class="login-contenedor" id="login-contenedor">
         <h1>Inicio de sesión</h1>
         <form action="login.php" method="post" id="login-form">
@@ -25,7 +26,11 @@
         <div class="boton-ins">
             <button id="ins">Inscríbete</button>
         </div>
+        <a href="recuperacion/registro.php">¿se te te olvido la contraceña?</a>
     </div>
+
+    
+
 
     <div class="inscrip" id="estudiante-form-contenedor">
         <h2>Inscripción</h2>
@@ -61,10 +66,12 @@
     <input type="password" id="repetir-contraseña" name="repetir_contraseña" required>
 
     <button type="submit" class="regis">Registrarse</button>
+
+
 </form>
 
     </div>
-
+</section>
     <?php include('footer.php'); ?>
 
     <script src="script.js"></script>
