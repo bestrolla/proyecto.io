@@ -1,6 +1,10 @@
 <!doctype html>
 <html lang="en">
+
+
     <head>
+
+    
         <title>Agenda Web</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -26,6 +30,8 @@
         </style>
     </head>
     <body>
+    <?php include('header.php');?>
+    
         <header class="bg-primary text-white text-center py-2">
             <h1>Calendario de Eventos</h1>
         </header>
@@ -142,6 +148,9 @@
                     eventModal.show();
                 }
             });
+
+
+            <?php include('footer.php');?>
         </script>
         <!-- Bootstrap JavaScript Libraries -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
