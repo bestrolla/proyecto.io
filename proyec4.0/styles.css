@@ -96,7 +96,8 @@ header nav ul li a:hover {
   background-size: cover;
   color: #fff;
   margin-top: 0px;
-  padding: 0px 0px 200px 0px;
+  margin-bottom: 0px;
+  padding: 100px 0px 200px 0px;
   text-align: center;
   height: 100;
   align-content:center;

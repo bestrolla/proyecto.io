@@ -26,7 +26,9 @@
         <div class="boton-ins">
             <button id="ins">Inscríbete</button>
         </div>
-        <a href="recuperacion/registro.php">¿se te te olvido la contraceña?</a>
+        <div >  
+        <a  class="recu" href="recuperacion/registro.php">¿se te te olvido la contraceña?</a>
+    </div>
     </div>
 
     

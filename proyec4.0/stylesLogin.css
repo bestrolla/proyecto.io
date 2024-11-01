@@ -90,10 +90,12 @@
   color: blanchedalmond;
   border: none;
   padding: 10px;
+  
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
   margin: 0 5px;
+  margin-bottom: 20px;
 }
 
 
@@ -138,6 +140,17 @@ label {
 
 .regis:ho{
   filter: brightness(90%);
+
+
+}
+
+
+.recu{
+ text-decoration: none;
+ color: #fff;
+ outline:none;
+
+
 
 
 }
