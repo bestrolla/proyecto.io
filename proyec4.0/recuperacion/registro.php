@@ -41,39 +41,16 @@
 
             <label for="login-contraseña">Correo electrónico</label>
             <input type="text" id="login-contraseña" name="login_correo" required>
-
-            <button type="submit">Enviar</button>
+            <div class="bonton-ins">
+            <button id="ins" type="submit">Enviar</button>
+            </div>
         </form>
 
-        <div class="boton-ins">
-            <button id="ins">Volver</button>
+        <div class="">
+            <button id="">Volver</button>
         </div>
     </div>
 </section>
-
-    
-
-
-<script src="script.js"></script>
-</body>
-</html>
-
-
-
-
-<html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Complejo | recuperacion</title>
-        <link rel="stylesheet" href="style.css">
-        
-    </head>
-    
-    <body> 
-        
-        
-        
         <section class="fondo">
             <div class="login-contenedor" id="login-contenedor">
                 <h1>Recuperación de Contraseña</h1>
@@ -89,11 +66,7 @@
         
     </div>
 </section>
-
-
-
-
-<script src="script.js"></script>
+<script src="ScriptRegis.js"></script>
 <?php include('../footer.php'); ?>
 
 </body>

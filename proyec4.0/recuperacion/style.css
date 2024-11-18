@@ -100,7 +100,7 @@
   
   
   /* Por defecto, ocultamos la inscripción */
-  #estudiante-form-contenedor {
+  #login-contenedorr {
     display: none;
     opacity: 0;
     height: 0;
@@ -109,7 +109,7 @@
   }
   
   /* Mostrar la inscripción */
-  #estudiante-form-contenedor.mostrar {
+  #login-contenedor.mostrar {
     display: block;
     opacity: 1;
     height: auto;
