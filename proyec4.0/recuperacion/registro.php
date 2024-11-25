@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complejo | recuperacion</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../styles.css">
+    <!-- <link rel="stylesheet" href="../styles.css"> -->
     
     <?php include('../head.php');?>
 </head>
@@ -33,14 +33,14 @@
    
 
 <section class="fondo">
-    <div class="login-contenedor" id="login-contenedor">
+    <div class="login-contenedor" id="recup-contenedor">
         <h1>Recuperación de Contraseña</h1>
-        <form action="contraseña.html" method="post" id="login-form">
-            <label for="login-nombre">Usuario</label>
-            <input type="text" id="login-nombre" name="login_nombre" required>
+        <form action="recup.php" method="post" id="recup-form">
+            <label for="recup-usu">Usuario</label>
+            <input type="text" id="recup-usu" name="recup_usu" required>
 
-            <label for="login-contraseña">Correo electrónico</label>
-            <input type="text" id="login-contraseña" name="login_correo" required>
+            <label for="recup-correo">Correo electrónico</label>
+            <input type="text" id="recup-correo" name="recup_correo" required>
             <div class="bonton-ins">
             <button id="ins" type="submit">Enviar</button>
             </div>
@@ -50,16 +50,15 @@
             <button id="">Volver</button>
         </div>
     </div>
-</section>
-        <section class="fondo">
-            <div class="login-contenedor" id="login-contenedor">
-                <h1>Recuperación de Contraseña</h1>
-                <form action="login.php" method="post" id="login-form">
-                    <label for="login-contraseña">Ingrese su nueva contraseña</label>
-            <input type="password" id="login-contraseña" name="login_contraseña" required>
 
-            <label for="login-contraseña">Ingrese nuevamente su contraseña</label>
-            <input type="password" id="login-contraseña" name="login_contraseña" required>
+            <div class="inscrip" id="recup-form-contenedor">
+                <h1>Recuperación de Contraseña</h1>
+                <form action="recup.php" method="post" id="recup-form-conatainer">
+                    <label for="recup-contraseña">Ingrese su nueva contraseña</label>
+            <input type="password" id="recup-contraseña" name="recup_contraseña" required>
+
+            <label for="recup-contraseña">Ingrese nuevamente su contraseña</label>
+            <input type="password" id="recup-contraseña" name="recup_contraseña" required>
             
             <button type="submit">Restablecer contraseña</button>
         </form>

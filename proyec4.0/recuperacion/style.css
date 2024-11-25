@@ -6,7 +6,13 @@
     --verde-suave: rgb(112, 161, 79);
     --gris-suave: rgb(176, 175, 181);
   }
-  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    
+  }
   
   .fondo {
     
@@ -23,6 +29,73 @@
     
   
   }
+
+  .logo{
+    padding:0 ;
+    margin-top: 0px;
+    /* border-radius: 30px; */
+    
+  }
+  
+  img{
+    border-radius: 25px;
+  
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top:0px ;
+    
+  }
+  
+  /* Estilos del encabezado */
+  header {
+  
+    background:rgb(29, 72, 140);
+    color: #fff;
+    padding-top: 5px;
+    min-height: 70px;
+    border-radius: 0 ;
+    position: relative;
+  
+  
+    width: 100%;
+  }
+  
+  header .logo {
+    float: left;
+  }
+  
+  header nav {
+    float: right;
+    margin-top: 0px;
+    align-content: end;
+    padding-top:20px ;
+    
+  }
+  
+  header nav ul {
+    padding-top: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header nav ul li a:hover {
+    color: #f2f2f2;
+  }
+  
   
   
   /* Estilos para login, formulario de inscripción y recuperacion de contraseña */
@@ -43,8 +116,8 @@
   }
   
   .login-contenedor form, .inscrip form {
-    margin-bottom: 20px;
-    padding: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
   }
   
   .login-contenedor label, .inscrip label {
@@ -100,7 +173,7 @@
   
   
   /* Por defecto, ocultamos la inscripción */
-  #login-contenedorr {
+  #recup-form-contenedor{
     display: none;
     opacity: 0;
     height: 0;
@@ -109,7 +182,7 @@
   }
   
   /* Mostrar la inscripción */
-  #login-contenedor.mostrar {
+  #recup-form-contenedor.mostrar {
     display: block;
     opacity: 1;
     height: auto;
@@ -141,3 +214,18 @@
   
   
   }
+
+/* Pie de página */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #333;
+  color: #fff;
+ display: grid;
+ min-width: 100dvh;
+ grid-template-rows: auto 1fr auto;
+}
+
+
+
+
