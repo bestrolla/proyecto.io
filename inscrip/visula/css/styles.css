@@ -1,0 +1,282 @@
+/* Colores definidos */
+:root {
+  --azul-oscuro: rgb(29, 72, 140);
+  --dorado: rgb(198, 203, 87);
+  --verde-oscuro: rgb(44, 124, 86);
+  --verde-suave: rgb(112, 161, 79);
+  --gris-suave: rgb(176, 175, 181);
+}
+
+
+
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  
+}
+.logo{
+  padding:0 ;
+  margin-top: 0px;
+  /* border-radius: 30px; */
+  
+}
+
+img{
+  border-radius: 25px;
+
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top:0px ;
+  
+}
+
+/* Estilos del encabezado */
+header {
+
+  background:rgb(29, 72, 140);
+  color: #fff;
+  padding-top: 5px;
+  min-height: 70px;
+  border-radius: 0 ;
+  position: relative;
+
+
+  width: 100%;
+}
+
+header .logo {
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 0px;
+  align-content: end;
+  padding-top:20px ;
+  
+}
+
+header nav ul {
+  padding-top: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #f2f2f2;
+}
+
+/* Sección de Héroe */
+
+
+
+
+.hero {
+  
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 100px 0px 200px 0px;
+  text-align: center;
+  height: 100;
+  align-content:center;
+  background-image:linear-gradient(rgba(165, 153, 153, 0.541), rgba(7, 7, 7, 0.438)), url(img/imaIndex.jpg)  ;
+  
+}
+
+.hero h1 {
+  
+  margin-bottom: 0;
+  margin-top: 20%;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.hero .btn {
+  display: inline-block;
+  background: rgb(112, 161, 79);
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero .btn:hover {
+  background: rgb(44, 124, 86);
+}
+
+.informacion-relevante{
+  background-color: #007BFF;
+}
+
+/* Sección de Noticias */
+.noticias {
+  padding: 60px 0;
+  background: #f9f9f9;
+}
+
+.noticias h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.noticia {
+  margin-bottom: 20px;
+}
+
+.noticia h3 {
+  color: #333;
+}
+
+.noticia p {
+  color: #666;
+}
+
+.noticia .btn {
+  background: #007BFF;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.noticia .btn:hover {
+  background: #0056b3;
+}
+
+/* Sección de Instagram */
+.instagram {
+  padding: 60px 0;
+  background: #e9ecef;
+  text-align: center;
+}
+
+.instagram h2 {
+  margin-bottom: 30px;
+}
+
+.instagram-posts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.instagram-posts .post img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Sección de Agenda de Eventos */
+.agenda-eventos {
+  padding: 60px 0;
+}
+
+.agenda-eventos h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.agenda-eventos .evento {
+  margin-bottom: 20px;
+}
+
+/* Sección de Calendario */
+.calendario {
+  padding: 60px 0;
+  background: #f9f9f9;
+}
+
+.calendario h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.calendario-mes {
+  text-align: center;
+}
+
+/* Sección de Información Relevante */
+.informacion-relevante {
+  padding: 60px 0;
+}
+
+.informacion-relevante h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.informacion-relevante p {
+  text-align: center;
+  color: #666;
+}
+
+/* Pie de página */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background: #333;
+  color: #fff;
+ display: grid;
+ min-width: 100dvh;
+ grid-template-rows: auto 1fr auto;
+}
+
+
+.container-curso{
+  align-content: center center;
+  /* background-color: var(--dorado); */
+  text-align: center;
+  margin: 10% 30% 10% 30%;
+  padding: 20px 20px 20px 20pxs;
+  border-radius:10px ;
+  border: var(--azul-oscuro);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+
+
+}
+
+
+.apli{
+  background-color:var(--verde-oscuro);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 5px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+
+}
