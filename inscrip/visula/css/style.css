@@ -11,6 +11,9 @@
     line-height: 1;
     margin: 0;
     padding: 0;
+    position: relative;
+    height: 100%;
+    min-width: 100vh;
     
   }
   
@@ -25,7 +28,7 @@
     height: 100%;
     align-content:center;
   
-    background-image: linear-gradient(rgba(240, 238, 238, 0.376),rgba(0, 0, 0, 0.261) ),url(complejo.jpg) ;
+    background-image: linear-gradient(rgba(240, 238, 238, 0.376),rgba(0, 0, 0, 0.261) ),url(/ModeloM/inscrip/visula/img/complejo.jpg) ;
     
   
   }
@@ -221,11 +224,63 @@
   padding: 20px 0;
   background: #333;
   color: #fff;
- display: grid;
- min-width: 100dvh;
- grid-template-rows: auto 1fr auto;
+ bottom: 0;
+ position: absolute;
+ width: 100%;
+}
+ .volver a { 
+    text-decoration: none;
+    background-color: var(--verde-oscuro);
+    color: blanchedalmond;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+    padding-left: 25%;
+    padding-right: 25%;
+    
+ }
+
+ .volver{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+ }
+
+ .volver:hover{
+  filter:brightness(90%) ;
+
+ }
+
+ .contenedor-code{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.casilla-digito {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 50px;
+  border: 0px solid black;
+  outline: none;
+  text-align: center;
+  font-size: 80%;
+
+
 }
 
+input{
 
-
-
+  font-size: 20px;
+}
+.bonton-code{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+ }

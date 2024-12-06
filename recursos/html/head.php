@@ -1,1 +1,1 @@
-<link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
+<link rel="shortcut icon" href="/ModeloM/recursos/img/logo.jpg" type="image/x-icon">

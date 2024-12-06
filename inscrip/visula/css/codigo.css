@@ -1,0 +1,17 @@
+
+.contenedor{
+      display: flex;
+   justify-content: center;
+   gap: 5px;
+  }
+  .casilla-digito {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+height: 50px;
+border: 0px solid black;
+outline: none;
+
+  }

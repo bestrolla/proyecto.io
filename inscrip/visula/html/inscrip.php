@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complejo | Inscripción</title>
-    <link rel="stylesheet" href="../css/stylesLogin.css">
+    <link rel="stylesheet" href="/ModeloM/inscrip/visula/css/stylesLogin.css">
     <?php include('../../../recursos/html/head.php');?>
+   
 </head>
-<body>
-    <?php include('../../../recursos/html/header.php'); ?>
-    <section class="fondo">  
-
+<body> 
+    <?php include('../../../recursos/html//header.php'); ?>
+    <section class="fondo"> 
     <div class="login-contenedor" id="login-contenedor">
         <h1>Inicio de sesión</h1>
-        <form action="login.php" method="post" id="login-form">
+        <form action="/ModeloM/inscrip/logica/login.php" method="post" id="login-form">
             <label for="login-nombre">Nombre</label>
             <input type="text" id="login-nombre" name="login_nombre" required>
 
@@ -26,7 +26,13 @@
         <div class="boton-ins">
             <button id="ins">Inscríbete</button>
         </div>
+        <div >  
+        <a  class="recu" href="/ModeloM/inscrip/visula/html/registro.php">¿se te te olvido la contraceña?</a>
     </div>
+    </div>
+
+    
+
 
     <div class="inscrip" id="estudiante-form-contenedor">
         <h2>Inscripción</h2>
@@ -62,13 +68,14 @@
     <input type="password" id="repetir-contraseña" name="repetir_contraseña" required>
 
     <button type="submit" class="regis">Registrarse</button>
-    </form>
+
+
+</form>
 
     </div>
-</section> 
+</section>
+    <?php include('../../../recursos/html//footer.php'); ?>
 
-    <?php include('../../../recursos/html/footer.php'); ?>
-
-    <script src="../js/script.js"></script>
+    <script src="/ModeloM/inscrip/visula/js/script.js"></script>
 </body>
 </html>
