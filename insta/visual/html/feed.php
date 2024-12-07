@@ -2,11 +2,11 @@
 <html>
 <head>
     <title>complejo |instagram</title>
-     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="ig.css">
+     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/ig.css">
     <link rel="shortcut icon" href="LOGOOFICIAL.png" type="image/x-icon">
     <?php include('../head.php');?>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../css/feed.css">
     
 </head>
 <header>
