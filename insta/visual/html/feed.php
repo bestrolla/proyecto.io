@@ -5,14 +5,14 @@
      <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/ig.css">
     <link rel="shortcut icon" href="LOGOOFICIAL.png" type="image/x-icon">
-    <?php include('../head.php');?>
+    <?php include('./');?>
     <link rel="stylesheet" href="../css/feed.css">
     
 </head>
 <header>
             <div class="container">       
             <div class="logo">
-                <img src="img/logo.jpg" alt="UNIMET"  height="75px " width="75px"  >
+                <img src="../img/img/logo.jpg" alt="UNIMET"  height="75px " width="75px"  >
             </div>
 
             <nav>
