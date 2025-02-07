@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>complejo|inicio</title>
-    <link rel="stylesheet" href="/proyecto final/proyec3.0/inicio/recursos/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="/proyecto.io/recursos/css/styles.css">
+
+
+    
     <link rel="shortcut icon" href="/proyecto final/proyec3.0/inicio/recursos/img/logo.jpg" type="image/x-icon">
     
 </head>

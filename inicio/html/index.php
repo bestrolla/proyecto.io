@@ -1,5 +1,5 @@
 
-<?php include('../../recursos/html/header.php');?>
+<?php include('../recursos/html/header.php');?>
     <!-- Sección de Héroe -->
     <section class="hero">
         <div class="container">
